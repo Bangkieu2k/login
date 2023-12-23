@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url(https://nailroom.vn/wp-content/uploads/bfi_thumb/Cover-odou4k6zt1b7c8hi14o5t9gbrcgbb5tymcd3a41lii.png) ;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #ededed;
+}
+.to {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: minmax(100px,auto);
+}
+
+.form {
+    background-image: url(https://nailroom.vn/wp-content/uploads/bfi_thumb/59107eb4e4f203ac5ae3-odqnha7txy8u1t8cc76cx3z61g4a97ugxwpiaecrzs.png);
+    background-size: cover;
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 470px;
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+i.fab.fa-app-store-ios {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+label {
+    margin-left: -126px;
+    display: block;
+    font-weight: lighter;
+
+}
+input{
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    outline-style: none;
+}
+input[type="text"] {
+    padding: 5px;
+    width: 70%;
+}
+
+input#submit {
+    margin-right: -150px;
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+input#submit2 {
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+a#submitt {
+    margin-left: -165px;
+    padding: 5px;
+    width: 45%;
+    border-radius: 10px;
+
+}
+input#submit:hover{
+
+    background: linear-gradient(to right, #fc466b, #3f5efb); 
+}
+a#submitt:hover{
+
+    background: linear-gradient(to right, #fc466b, #3f5efb); 
+}
+input#submit2:hover{
+
+    background: linear-gradient(to right, #fc466b, #3f5efb); 
+}
